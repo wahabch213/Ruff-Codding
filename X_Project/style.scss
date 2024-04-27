@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 500px;
+    height: 100vh;
+    background-color: black;
+    font-family: "Public Sans",
+        sans-serif;
+}
+
+header {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.509);
+    background-color: black;
+    width: 500px;
+    height: 50px;
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .foryou,
+        .following {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 200px;
+            height: 50px;
+        }
+    }
+}
+
+.container_1 {
+    .part1 {
+        background-color: black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .profile_pic img {
+            margin: 20px 20px;
+            width: 40px;
+            height: 40px;
+            border: 0px solid black;
+            border-radius: 50%;
+        }
+
+        .input {
+            #input {
+                font-size: larger;
+                color: rgb(179, 160, 160);
+                background-color: black;
+                width: 420px;
+                height: 50px;
+                border: 0px solid black;
+            }
+        }
+    }
+
+    .part2 {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.521);
+
+        .icons {
+            width: 80%;
+            margin-left: 16%;
+            display: flex;
+            flex-direction: column;
+            #emoji-4{
+                margin: 0px 5px 0px 0px;
+                width: 20px;
+                height: 20px;
+            }
+            .icons1 {
+                display: flex;
+                padding: 0% 0% 2% 1%;
+                border-bottom: 1px solid rgba(128, 128, 128, 0.495);
+
+                a {
+                    text-decoration: none;
+                    color: #1C7AD8;
+                }
+            }
+            .icons2 {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                padding: 3% 0% 3% 0%;
+                #icons-part2{
+                    display: flex;
+                        gap: 15px;
+                }
+                button{
+                    width: 65px;
+                    height: 35px;
+                    border: 0px solid black;
+                    border-radius: 40px;
+                    background-color: #1C7AD8;
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  background-image: url("imgs/simple.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.rain {
+  background-image: url("imgs/torain.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  width: 100vw;
+}
+
+#btn {
+  height: 30px;
+  width: 50px;
+  margin: 30px 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

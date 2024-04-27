@@ -1,0 +1,16 @@
+.container {
+  #off {
+    padding-left: 43%;
+  }
+  h1 {
+    text-align: center;
+    text-shadow: 5px 5px 5px #d60b0b;
+  }
+  .btn {
+    display: grid;
+    grid-template-columns: repeat(3, auto auto auto);
+    gap: 2px;
+    grid-template-rows: repeat(1, auto);
+    justify-content: center;
+  }
+}

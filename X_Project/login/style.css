@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container .box1 {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .box2 {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+}
+.container .box2 h1 {
+  color: white;
+  font-size: 70px;
+  font-weight: 900;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container .box2 p {
+  font-size: smaller;
+  color: gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  max-width: 325px;
+}
+.container .box2 #join_today {
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container .box2 #btn_google {
+  color: black;
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  width: 320px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.container .box2 #btn_google img {
+  margin: 5px;
+}
+.container .box2 #btn_apple {
+  color: black;
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  width: 320px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.container .box2 #btn_apple img {
+  margin: 5px;
+}
+.container .box2 #acc {
+  color: white;
+  background-color: rgb(35, 118, 220);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  width: 320px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.container .box2 #already_acc {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+}
+.container .box2 #sign_in {
+  color: rgb(35, 118, 220);
+  background-color: transparent;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  width: 320px;
+  height: 38px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .container .container {
+    flex-direction: column;
+  }
+  .container .box1,
+  .container .box2 {
+    width: 100%;
+    height: auto;
+  }
+}/*# sourceMappingURL=style.css.map */

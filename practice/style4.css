@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 15px;
+  margin: 30px;
+  border: 2px solid red;
+  height: 150vh;
+  width: 80vw;
+}
+.container .box {
+  margin: 15px;
+  padding: 10px;
+  height: 20vh;
+  width: 80%;
+  border: 3px solid black;
+}
+.container .box1 {
+  background-color: aqua;
+  position: sticky;
+  top: 0;
+}
+.container .box2 {
+  background-color: #cd7575;
+}
+.container .box3 {
+  background-color: rebeccapurple;
+}
+.container .box4 {
+  background-color: #710505;
+}
+.container .box5 {
+  background-color: #db16ba;
+}/*# sourceMappingURL=style4.css.map */

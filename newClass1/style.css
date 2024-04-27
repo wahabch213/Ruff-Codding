@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.container #btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container ._2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  width: 80%;
+  height: 80%;
+}
+.container ._2 ._3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 60%;
+  border: 2px solid red;
+}
+.container ._2 ._3 ._4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  border: 2px solid red;
+}
+.container ._2 ._3 ._4 ._5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 30%;
+  border: 2px solid red;
+}/*# sourceMappingURL=style.css.map */

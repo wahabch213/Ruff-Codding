@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: black;
+    height: 141vh;
+    width: 500px;
+    font-family: "Public Sans";
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .content {
+        width: 95%;
+        height: 10vh;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 3%;
+    }
+
+    .section {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+
+
+        .box {
+            a {
+                color: gray;
+            }
+
+            border-bottom: 1px solid grey;
+            width: 166px;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover {
+                background-color: rgba(70, 69, 69, 0.669);
+
+                a {
+                    color: white;
+                }
+
+            }
+        }
+    }
+
+    .section2 {
+        color: rgba(216, 215, 215, 0.785);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 25px;
+            height: 25px;
+            margin: 0 10px;
+        }
+
+        .box {
+            width: 95%;
+            height: 20vh;
+            margin: 0 10px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid grey;
+            cursor: pointer;
+        }
+
+        .warning-box {
+            width: 95%;
+            height: 20vh;
+            margin: 0 10px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid grey;
+            cursor: pointer;
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}
